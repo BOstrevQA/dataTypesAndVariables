@@ -1,0 +1,4 @@
+String Architecture = Console.ReadLine();
+int Project = int.Parse(Console.ReadLine());
+int Hours = Project * 3;
+Console.WriteLine($"The architect {Architecture} will need {Hours} hours to complete {Project} project/s.");
