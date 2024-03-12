@@ -1,0 +1,2 @@
+int Days = int.Parse(Console.ReadLine());
+Console.WriteLine($"Minutes = " + (Days * 24) * 60);
