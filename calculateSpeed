@@ -1,0 +1,4 @@
+Double Distance = Double.Parse(Console.ReadLine());
+Double Time = Double.Parse(Console.ReadLine());
+Double Speed =Distance / Time;
+Console.WriteLine($"{Speed:F2}");
