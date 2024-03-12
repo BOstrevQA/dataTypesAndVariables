@@ -1,0 +1,6 @@
+Double Radius = Double.Parse(Console.ReadLine());
+Double pi = 3.14159265359;
+Double Area = (Radius * Radius) * pi;
+Double Perimeter = (2 * pi) * Radius;
+Console.WriteLine($"Area = " + $"{ Area:F2}");
+Console.WriteLine($"Perimeter = " + $"{Perimeter:F2}");
