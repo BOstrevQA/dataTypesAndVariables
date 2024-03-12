@@ -1,0 +1,3 @@
+Double Meters = Double.Parse(Console.ReadLine());
+Double Kilometers = Meters / 1000;
+Console.WriteLine($"{Kilometers:F2}");
